@@ -80,4 +80,3 @@ if submit:
             st.write(f"**{key}:** {value}")
 
 
-            
