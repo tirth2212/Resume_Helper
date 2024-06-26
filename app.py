@@ -48,17 +48,16 @@ def input_pdf_text(uploaded_file):
 
 
 input_prompt = """
-You are a highly skilled ATS (Application Tracking System) with extensive experience in evaluating resumes in the tech field, 
-including software engineering, machine learning, artificial intelligence, data science, data analysis, and big data engineering.
-Your task is to evaluate the provided resume against the given job description. Consider the competitive nature of the job market 
-and aim to provide the best assistance for improving the resume. Assess the match percentage between the resume and the job description, 
-identify missing keywords, and offer a profile summary. 
+You are a highly skilled ATS (Application Tracking System) with extensive experience in evaluating resumes in the tech field, including software engineering, machine learning, artificial intelligence, data science, data analysis, and big data engineering. Your task is to evaluate the provided resume against the given job description. Consider the competitive nature of the job market and aim to provide the best assistance for improving the resume. Assess the match percentage between the resume and the job description, identify missing keywords, and offer a profile summary. Ensure the response is in the following structured format without any errors:
+{
+  "JD_Match": "%",
+  "MissingKeywords": [],
+  "Profile_Summary": ""
+}
 Here are the details:
+
 Resume: {text}
 Job Description: {jd}
-Provide the response in the following structured format:
-{{"JD Match":"%","MissingKeywords":[],"Profile Summary":""}}
-
 
 """
 
