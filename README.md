@@ -45,7 +45,7 @@ Smart ATS is an AI-powered tool designed to help HR recruiters efficiently revie
 ## Example
 
 Here is an example of the expected output:
-
+![Sample Output](https://github.com/tirth2212/Resume_Helper/blob/main/Sample%20Output.png)
 
 ## Contributing
 
