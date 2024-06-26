@@ -53,12 +53,12 @@ including, software engineering, macine learning, artificial intelligence,
 data science, data analyst and big data engineering. 
 Your task is to evaluate the resume against the given job description.
 You must consider the job market is very competitive and you should provide the 
-best assistance for improving the resumes. Assess the match percentage between the resume and the job description and the missing keywords with high accuracy also in Profile Summary,
+best assistance for improving the resumes. Assess the match percentage between the resume and the job description and the missing keywords with high accuracy also in Candidacy,
 provide the skills that are there in the resume which are different from the job description and also highlight the skills that the employer is looking for and are not in the resume
 resume:{text}
 description:{jd}
 I want the response in one single string having the structure
-{{"JD Match":"%","MissingKeywords":[],"Profile Summary":""}}
+{{"JD Match":"%","MissingKeywords":[],"Profile Summary":"", "Candidacy":""}}
 
 """
 
