@@ -25,12 +25,12 @@ openai.api_key = API_KEY
 
 def get_gpt4_response(prompt):
     response = openai.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4.1-mini",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
         ],
-        max_tokens=1500,
+        max_completion_tokens=1500,
         n=1,
         stop=None,
         temperature=0.5,
